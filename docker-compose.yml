@@ -1,0 +1,14 @@
+services:
+  tg-proxy:
+    image: telegrammessenger/proxy:latest
+    container_name: tg_proxy_official
+    restart: always
+    ports:
+      - "4433:443"
+    environment:
+      - SECRET=YOUR_SECRET_HERE
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
