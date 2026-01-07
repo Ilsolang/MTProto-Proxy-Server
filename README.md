@@ -31,8 +31,8 @@ sudo systemctl enable --now docker
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/Ilsolang/MTProto-Proxy-Server.git
+cd MTProto-Proxy-Server
 ```
 2. Настройте конфигурацию:
 
